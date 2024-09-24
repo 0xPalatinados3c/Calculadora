@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso (kg)" />
+
+    <EditText
+        android:id="@+id/edtAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura (m)" />
+
+    <Button
+        android:id="@+id/btnCalcularIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC" />
+
+    <Button
+        android:id="@+id/btnLimparIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+</LinearLayout>
